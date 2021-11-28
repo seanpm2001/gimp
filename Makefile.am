@@ -87,10 +87,9 @@ EXTRA_DIST = \
 	config.h.win32		\
 	gimp-zip.in		\
 	git-version.h		\
-	gtk-doc.make
 
 
-AM_DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --with-python=force --with-javascript=force --with-lua=force
+AM_DISTCHECK_CONFIGURE_FLAGS = --enable-gi-docgen --with-python=force --with-javascript=force --with-lua=force
 
 
 check-defs:
